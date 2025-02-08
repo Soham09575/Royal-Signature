@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Signature -> Feedback</title>
+  <meta name="description" content="Discover your signature scent with Royal Signature's exclusive collection of luxury perfumes.">
+  <link rel="stylesheet" href="css/feedback.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet"> <!-- for  Google Font -->
+  <script src="https://unpkg.com/lucide@latest"></script> <!-- for icons -->
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-content">
+      <div class="nav-logo">
+        <img class="logoimg" src="img/logo.png" alt="logo">
+        <span>Royal Signature</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="brands.html">Brands</a></li>
+        <li><a href="feedback.html">feedback</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li> <a href="cart" ><img  class="bag" src="icons/image-removebg-preview (3).png" ></a><li>
+      </ul>
+    </div>
+  </nav>
+  <section class="feedback">
+    <div class="feedback-container">
+      <h2>We Value Your Feedback</h2>
+      <p>Let us know about your experience with Royal Signature perfumes.</p>
+  
+      <form action="#" method="POST">
+        <!-- Name -->
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+  
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+  
+        <!-- Feedback Type -->
+        <div class="form-group">
+          <label for="feedback-type">Feedback Type</label>
+          <select id="feedback-type" name="feedback-type">
+            <option class="fcolor" value="product">Product Quality</option>
+            <option class="fcolor" value="website">Website Experience</option>
+            <option class="fcolor" value="service">Customer Service</option>
+            <option class="fcolor" value="other">Other</option>
+          </select>
+        </div>
+  
+        <!-- Rating System -->
+        <div class="form-group rating">
+          <label>Rate Us</label>
+          <div class="stars">
+            <input type="radio" name="rating" id="star5" value="5"><label for="star5">★</label>
+            <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+            <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+            <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+            <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+          </div>
+        </div>
+  
+        <!-- Message Box -->
+        <div class="form-group">
+          <label for="message">Your Feedback</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your feedback..." required></textarea>
+        </div>
+  
+        <!-- Submit Button -->
+        <button type="submit" class="btn-submit">Submit Feedback</button>
+      </form>
+    </div>
+  </section>
+  <!-- feedback -->
+  <div class="feedback-container">
+    <h1>Customer Feedback</h1>
+    <div class="feedback-slider">
+        <div class="feedback-card ">
+            <p class="feedback-text">"This platform is amazing! It has helped me a lot in my projects. Highly recommended!"</p>
+            <p class="feedback-user">- John Doe</p>
+        </div>
+        <div class="feedback-card active">
+            <p class="feedback-text">"A game changer for developers. The tools available are simply outstanding!"</p>
+            <p class="feedback-user">- Alice Smith</p>
+        </div>
+        <div class="feedback-card">
+            <p class="feedback-text">"Fantastic experience! It has boosted my productivity tenfold."</p>
+            <p class="feedback-user">- Robert Brown</p>
+        </div>
+        <div class="feedback-card">
+            <p class="feedback-text">"An essential tool for every developer. Super intuitive and feature-rich."</p>
+            <p class="feedback-user">- Emily White</p>
+        </div>
+    </div>
+</div>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <i data-lucide="crown"></i>
+          <span>Royal Signature</span>
+        </div>
+        <p>Crafting luxury fragrances for the distinguished</p>
+        <div class="social-links">
+          <a href="#"><i data-lucide="instagram"></i></a>
+          <a href="#"><i data-lucide="facebook"></i></a>
+          <a href="#"><i data-lucide="twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <div class="footer-section">
+          <h3>Shop</h3>
+          <ul>
+            <li><a href="#">All Perfumes</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Gift Sets</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Stores</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Royal Signature. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+
+<script>
+  let index = 0;
+  const cards = document.querySelectorAll(".feedback-card");
+  const slider = document.querySelector(".feedback-slider");
+
+  function updateSlide() {
+      cards.forEach(card => card.classList.remove("active"));
+      cards[index].classList.add("active");
+
+      let offset = -(index * 220) + "px"; // 220px width + 20px gap
+      slider.style.transform = `translateX(${offset})`;
+
+      index = (index + 1) % cards.length;
+  }
+
+  setInterval(updateSlide, 7000);
+</script>
+</body>
+</html>
