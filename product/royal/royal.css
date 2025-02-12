@@ -76,13 +76,13 @@ body {
 
 .dropdown-icon {
     font-size: 20px;
-    color: #ff4081;
+    color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
 .dropdown-icon:hover {
-    color: #d81b60;
+    color:gold;
 }
 
 .dropdown-content {
