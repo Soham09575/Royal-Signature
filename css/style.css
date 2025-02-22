@@ -40,7 +40,7 @@ header {
    font-family: 'Dancing Script', cursive;
    font-size: 2.2rem;
    font-weight: 600;
-   color: gold;
+   color: orange;
 }
 
 /* Login Form Positioned to the Right */
@@ -70,7 +70,7 @@ header {
    position: absolute;
    right: 10px;
    cursor: pointer;
-   color: gold;
+   color: orange;
    font-size: 1.2rem;
    transition: 0.3s;
 }
