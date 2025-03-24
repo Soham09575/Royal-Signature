@@ -2,7 +2,7 @@ function handleLogin() {
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
 
-    if (username === "rihan" && password === "1234") {
+    if (username === "rihan" || username === "abhimanyu"  || username ==="soham" && password === "1234") {
         alert("Login Successful");
         window.location.href = "home.html";  // Redirect to brands.html
     } else {
