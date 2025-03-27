@@ -37,7 +37,6 @@
         </div>
         <div class="product-info">
           <h3>Royal Oud</h3>
-          <p>A majestic blend of rare oud and royal amber</p>
           <div class="product-footer">
             <span class="price">₹9999</span>
           </div>
@@ -50,7 +49,6 @@
         </div>
         <div class="product-info">
           <h3>Crown Jasmine</h3>
-          <p>Pure jasmine infused with golden vanilla</p>
           <div class="product-footer">
             <span class="price">₹5999</span>
           </div>
@@ -63,7 +61,6 @@
         </div>
         <div class="product-info">
           <h3>Imperial Rose</h3>
-          <p>Bulgarian roses with a touch of royal musk</p>
           <div class="product-footer">
             <span class="price">₹7999</span>
           </div>
@@ -71,6 +68,19 @@
       </article>
     </div>
   </section>
+
+  <secation class="bill">
+    <div class="bill-container">
+      <div class="bill-details">
+        <h2 class="ordertitle">Cart Bill</h2>
+        <p>Subtotal: <span id="subtotal">₹23997</span></p>
+        <p>Offer: <span id="tax">10% Off</span></p>
+        <h3>Total: <span id="total">₹21598</span></h3>
+      </div>
+      <button class="place-order-btn" onclick="placeOrder()">Place Order</button>
+    </div>
+    
+  </secation>
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
@@ -127,6 +137,11 @@
   <script>
     // Initialize Lucide icons
     lucide.createIcons();
+
+    function placeOrder(){
+      alert("Order submitted successfully!");
+    }
+    
   </script>
 </body>
 </html>

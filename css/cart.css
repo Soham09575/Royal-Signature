@@ -174,7 +174,7 @@
   
   /* Products Section */
   .products {
-    padding: 6rem 2rem;
+    padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -485,4 +485,30 @@ background-color: #424242;
 {
   height: 50px;
   margin-top: 10px;
+}
+
+/* Bill cart */
+.bill-container
+{
+  background-color: #474747;
+  padding: 10px;
+  border-radius: 5px; 
+  text-align: center;
+}
+
+.ordertitle
+{
+  text-align: center;
+  font-family: arial;
+  font-weight: 700;
+}
+
+.place-order-btn
+{
+  background-color: #424242;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-family: arial;
+  font-weight: 700;
 }
