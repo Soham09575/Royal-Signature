@@ -494,21 +494,37 @@ background-color: #424242;
   padding: 10px;
   border-radius: 5px; 
   text-align: center;
+  font-family: arial;
+  background-size: auto;
 }
 
 .ordertitle
 {
   text-align: center;
-  font-family: arial;
+  font-family: arial black;
   font-weight: 700;
+  color: white;
+  padding: 5px;
 }
 
 .place-order-btn
 {
-  background-color: #424242;
+  background-color: #249602;
   padding: 10px;
   border-radius: 5px;
   color: white;
   font-family: arial;
   font-weight: 700;
+}
+
+.bill
+{
+  margin-top: 10px;
+  text-align: center;
+  width: auto;
+  align-items: center;
+  font-family: arial;
+  font-weight: 700;
+  color: white;
+  background-color: #0d0d0d;
 }
