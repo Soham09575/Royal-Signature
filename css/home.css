@@ -28,7 +28,14 @@ body {
   line-height: 1.6;
 }
 
-
+.loginbox
+{
+  background-color: rgb(133, 130, 130);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: #a3a3a3;
+  color: black;
+}
 .logoimg
 {
   height: 50px;
@@ -101,7 +108,6 @@ body {
   cursor: pointer;
   position: relative;
 }
-
 .cart-count {
   position: absolute;
   top: -8px;
@@ -540,3 +546,4 @@ margin-top: 10px;
   0% { background-position: -200px; }
   100% { background-position: 200px; }
 }
+
