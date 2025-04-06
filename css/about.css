@@ -28,6 +28,15 @@ body {
 }
 
 /* Navigation */
+.loginbox
+{
+  background-color: rgb(133, 130, 130);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: #a3a3a3;
+  color: black;
+}
+
 .navbar {
   position: fixed;
   top: 0;
