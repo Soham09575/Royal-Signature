@@ -37,7 +37,7 @@ header {
 
 /* Cursive Logo Text */
 .brand-title {
-   font-family: 'Dancing Script', cursive;
+   font-family:aria;
    font-size: 2.2rem;
    font-weight: 600;
    color: orange;
