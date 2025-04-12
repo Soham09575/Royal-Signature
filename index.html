@@ -21,7 +21,7 @@
 
     <!-- Background Video -->
     <video autoplay muted loop class="bg-video">
-        <source src="video/perfum blue.mp4" type="video/mp4">
+        <source src="\product\video\perfum blue.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
@@ -30,6 +30,7 @@
         <img src="img/logo.png" alt="Royal Signature Logo" class="logo me-3">
         <h1 class="brand-title">Royal Signature</h1>
     </header>
+    
 
     <!-- Main Container -->
     <div class="container d-flex align-items-center justify-content-end min-vh-100">
@@ -43,6 +44,7 @@
                     <label for="username"><i class="fas fa-user"></i> Username</label>
                     <input type="text" id="username" name="username" class="form-control" required>
                 </div>
+
                 <div class="form-group mb-3">
                   <label for="password"><i class="fas fa-lock"></i> Password</label>
                   <div class="password-wrapper">
@@ -55,11 +57,30 @@
               
 
                 <button type="button" class="btn btn-gold w-100 mt-3" onclick="handleLogin()">Log In</button>
-                <button type="button" class="btn btn-outline-light w-100 mt-2" onclick="handleSignUp()">Sign Up</button>
             </form>
         </div>
     </div>
 
+
+    <nav class="navbar">
+        <div class="nav-content">
+          <div class="nav-logo">
+            <img class="logoimg" src="img/logo.png" alt="logo">
+            <span>Royal Signature</span>
+          </div>
+          <ul class="nav-links">
+            <li><a class="active" href="home.html"  >Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="brands.html">Brands</a></li>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+             <li><a href="contact.html">Contact us</a></li>
+            <li> <a href="cart.html" ><img  class="bag" src="icons/image-removebg-preview (3).png" ></a><li>
+          </ul>
+        </div>
+      </nav>
+    
+      
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
